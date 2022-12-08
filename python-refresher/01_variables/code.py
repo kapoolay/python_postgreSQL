@@ -1,22 +1,20 @@
-"""
-x = 15
-price = 9.99
+#x = 15
+#price = 9.99
 
-discount = 0.2
+#discount = 0.2
 
-result = price * (1 - discount)
+#result = price * (1 - discount)
 
-print(result)
-"""
+#print(result)
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ String variables
-"""
-name = "rolf"
 
-print(name)
-print(name * 2)
+#name = "rolf"
+
+#print(name)
+#print(name * 2)
 # print(f"Hello there, {name.title()}!")
-"""
+
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Changing variable values
 
