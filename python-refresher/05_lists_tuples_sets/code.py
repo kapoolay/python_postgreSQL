@@ -1,6 +1,6 @@
 l = ["Bob", "Rolf", "Anne"]    # a list uses square brackets. You can add/remove elements from a list. Orders stay the same.
 t = ("Bob", "Rolf", "Anne")    # tuple uses regular brackets. CANNOT add/remove elements from a tuple. Orders stay the same.
-s = {"Bob", "Rolf", "Anne"}    # CANNOT HAVE DUPLICATE elements. Order IS NOT guaranteed.
+s = {"Bob", "Rolf", "Anne"}    # Add/Remove elements, but CANNOT HAVE DUPLICATE elements. Order IS NOT guaranteed.
 
 print(l[0])    # this is subscript notation. Elements in programming usually start at 0
 
