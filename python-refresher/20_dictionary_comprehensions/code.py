@@ -7,9 +7,8 @@ users = [
     (3, "username", "1234"),
 ]
 
-# for every name in the dictionary, print out their information --> Name: (value1, value2, value3)
+# for every name in the dictionary, append their information to 'username_mapping' --> Name: (value1, value2, value3)
 username_mapping = {user[1]: user for user in users}
-
 print(username_mapping)
 ## {'Bob': (0, 'Bob', 'password'), 'Rolf': (1, 'Rolf', 'bob123'), 'Jose': (2, 'Jose', 'longp4assword'), 'username': (3, 'username', '1234')}
 
