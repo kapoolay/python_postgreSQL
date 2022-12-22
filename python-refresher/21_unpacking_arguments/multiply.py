@@ -1,4 +1,5 @@
 # '*' allows a function to take in any number of arguments
+# '*' collects all positional arguments
 
 def multiply(*args):
     print(args)

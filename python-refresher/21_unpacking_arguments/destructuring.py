@@ -20,7 +20,7 @@ print(add(x=nums["x"], y=nums["y"]))
 
 # INSTEAD OF DOING THE ABOVE, you can tell python to pass in the 'nums' dictionary as named arguments
 # where the argument will be equal to the value associated with that same name for a key
-# '**' means you have a dictionary with 3 keys, I'm going to pass in each key as a
+# '**' means you have a dictionary with 2 or more keys, I'm going to pass in each key as a
 # named argument and the value is going to be that value associated with the key
 def add(x, y):
     return x + y
@@ -31,10 +31,10 @@ print(add(**nums))
 ## 40
 
 # ~~~~~~~~~~~~~~ Another example
-def add2(a, b, c):
-    return a + b + c
+def add2(a, b, c, d):
+    return a + b + c + d
 
-nums2 = {"a": 5, "b": 10, "c": 15}
+nums2 = {"a": 5, "b": 10, "c": 15, "d": 1}
 
 print(add2(**nums2))
-## 30
+## 31
