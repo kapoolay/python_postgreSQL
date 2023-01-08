@@ -1,5 +1,5 @@
 # Methods with 2 underscores on each side are called special methods AKA "magic methods"
-# __init__ | __str__
+# __init__ | __str__ | __repr__
 
 class Person:
     def __init__(self, name, age):
