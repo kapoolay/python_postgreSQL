@@ -3,7 +3,7 @@ def list_avg(sequence: List) -> float:
 
 list_avg(123)
 
-## Example with hint typing
+## Example with type hinting
 
 class Book:
     TYPES= ("hardcover", "paperback")
