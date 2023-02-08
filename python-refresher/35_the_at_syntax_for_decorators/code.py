@@ -3,7 +3,7 @@ import functools
 user = {"username": "kevin", "access_level": "guest"}
 
 def make_secure(func):
-    # @functools.wraps(func)      ## allows 'secure_function' to keep the original function's name/documentation globally
+    @functools.wraps(func)      ## allows 'secure_function' to keep the original function's name/documentation globally
     def secure_function():
         if user["access_level"] == "admin":
             return func()
