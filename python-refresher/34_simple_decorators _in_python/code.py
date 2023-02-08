@@ -9,7 +9,7 @@ def make_secure(func):
         if user["access_level"] == "admin":
             return func()
         else:
-            print(f"No admin permissions for {user['username']}.")
+            return f"No admin permissions for {user['username']}."
 
     return secure_function
 
